@@ -50,10 +50,10 @@ A modern, full-featured weather application built with **Next.js 14**, **TypeScr
 
 ## 🚀 Live Demo
 
-\`\`\`bash
-# Visit the live application
-https://your-weather-app.vercel.app
-\`\`\`
+Visit the live application at:
+```
+https://v0-flask-weather-app.vercel.app/
+```
 
 ## 🛠️ Tech Stack
 
@@ -75,13 +75,13 @@ https://your-weather-app.vercel.app
 
 ## 📦 Installation
 
-### **Prerequisites**
-- Node.js 18+ 
-- npm or yarn or pnpm
+### Prerequisites
+- Node.js 18 or higher
+- npm, yarn, or pnpm
 
-### **Quick Start**
+### Quick Start
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/weather-forecast-app.git
 
@@ -101,13 +101,13 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-\`\`\`
+```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
 ## 🏗️ Project Structure
 
-\`\`\`
+```
 weather-forecast-app/
 ├── app/
 │   ├── api/
@@ -135,11 +135,12 @@ weather-forecast-app/
 ├── package.json                  # Dependencies and scripts
 ├── tailwind.config.ts            # Tailwind CSS configuration
 └── tsconfig.json                 # TypeScript configuration
-\`\`\`
+```
 
 ## 🌐 API Integration
 
-### **Open-Meteo Weather API**
+### Open-Meteo Weather API
+
 This app uses the **Open-Meteo API**, which provides:
 - ✅ **Free usage** (no API key required)
 - ✅ **Professional-grade data** from ECMWF, GFS, and national weather services
@@ -147,8 +148,9 @@ This app uses the **Open-Meteo API**, which provides:
 - ✅ **Real-time updates** every hour
 - ✅ **Historical data** and forecasts up to 16 days
 
-### **API Endpoints**
-\`\`\`typescript
+### API Endpoints
+
+```typescript
 // Current weather and forecasts
 GET /api/weather?lat={latitude}&lon={longitude}
 
@@ -157,14 +159,15 @@ GET /api/geocoding?q={query}
 
 // Reverse geocoding
 GET /api/reverse-geocoding?lat={latitude}&lon={longitude}
-\`\`\`
+```
 
 ## 🎨 Customization
 
-### **Themes & Colors**
+### Themes & Colors
+
 The app automatically adapts its color scheme based on weather conditions:
 
-\`\`\`typescript
+```typescript
 // Weather-based gradients
 const weatherGradients = {
   0: "from-yellow-400 to-orange-400",    // Clear sky
@@ -172,12 +175,13 @@ const weatherGradients = {
   95: "from-purple-600 to-purple-800",   // Thunderstorm
   // ... more conditions
 }
-\`\`\`
+```
 
-### **Adding New Features**
+### Adding New Features
+
 1. **New Weather Parameters**: Add to the API route and update TypeScript interfaces
-2. **Custom Charts**: Create new chart components in \`components/\`
-3. **Additional APIs**: Integrate new data sources in \`app/api/\`
+2. **Custom Charts**: Create new chart components in `components/`
+3. **Additional APIs**: Integrate new data sources in `app/api/`
 
 ## 📱 Responsive Design
 
@@ -189,42 +193,45 @@ The app is fully responsive and optimized for:
 
 ## 🚀 Deployment
 
-### **Deploy to Vercel (Recommended)**
+### Deploy to Vercel (Recommended)
 
-\`\`\`bash
+```bash
 # Install Vercel CLI
 npm i -g vercel
 
 # Deploy
 vercel
+```
 
-# Or connect your GitHub repository to Vercel for automatic deployments
-\`\`\`
+Or connect your GitHub repository to Vercel for automatic deployments.
 
-### **Deploy to Netlify**
+### Deploy to Netlify
 
-\`\`\`bash
+```bash
 # Build the project
 npm run build
 
 # Deploy the 'out' folder to Netlify
-\`\`\`
+```
 
-### **Environment Variables**
+### Environment Variables
+
 No environment variables required! The app uses free APIs that don't need authentication.
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-### **Development Guidelines**
+### Development Guidelines
+
 1. **Fork** the repository
-2. **Create** a feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. **Commit** your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. **Push** to the branch (\`git push origin feature/AmazingFeature\`)
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
+4. **Push** to the branch (`git push origin feature/AmazingFeature`)
 5. **Open** a Pull Request
 
-### **Code Style**
+### Code Style
+
 - Use **TypeScript** for all new code
 - Follow **ESLint** and **Prettier** configurations
 - Write **meaningful commit messages**
@@ -245,9 +252,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 If you have any questions or need help:
 
-- 📧 **Email**: your.email@example.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/weather-forecast-app/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/weather-forecast-app/discussions)
+- 📧 **Email**: sorenramesh868@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/rameshgitter/weather-forecast-app/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/rameshgitter/weather-forecast-app/discussions)
 
 ## ⭐ Show Your Support
 
