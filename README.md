@@ -83,7 +83,7 @@ https://v0-flask-weather-app.vercel.app/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/weather-forecast-app.git
+git clone https://github.com/rameshgitter/weather-forecast-app.git
 
 # Navigate to project directory
 cd weather-forecast-app
